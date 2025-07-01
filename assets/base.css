@@ -4199,11 +4199,7 @@ text-component {
 }
 
 
-.header__row {
-  background-color: lightblue;
-}
 
-.header__row header__row--top color-scheme-1 {
-    background-color: lightblue;
-
+.header__row header__row--top color-scheme-1 section section--full-width-margin section--page-width {
+   background-color: lightblue;
 }
