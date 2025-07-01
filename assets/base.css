@@ -4197,3 +4197,8 @@ text-component {
   transform: none;
   box-shadow: none;
 }
+
+
+.header__row {
+  background-color: lightblue;
+}
