@@ -1,0 +1,104 @@
+<style>
+
+    .estimated-delivery-date-container {
+        width: auto;
+        max-width: 600px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        gap: 20px;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 10px 20px;
+        background-color: #EBFFD8;
+        flex-wrap: wrap;
+    }
+
+
+
+    .estimated-delivery-date-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .estimated-delivery-date-content svg {
+        width: 32px !important;
+        height: 32px !important;
+        padding: 5px !important;
+        fill: black !important;
+        display: block !important;
+    }
+
+    .estimated-delivery-date-content span {
+        font-size: 18px;
+    }
+
+    @media screen and (max-width: 425px){
+    .estimated-delivery-date-container{
+      gap:25px;
+      padding: 5px;
+  }
+
+
+
+      .estimated-delivery-date-content span {
+        font-size:14px;
+      }
+  }
+
+    @media (max-width: 360px) {
+      .estimated-delivery-date-container {
+        height: auto;
+        width: 200px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .estimated-delivery-date-content span {
+        font-size: 16px;
+      }
+    }
+
+    @media (max-width: 330px) {
+      .estimated-delivery-date-container {
+        gap: 5px;
+      }
+
+      .estimated-delivery-date-content svg {
+        width: 28px !important;
+        height: 28px !important;
+        padding: 5px !important;
+      }
+
+      .estimated-delivery-date-content span {
+        font-size: 16px;
+      }
+    }
+</style>
+
+<div class="estimated-delivery-date-container">
+  <div class="estimated-delivery-date-content">
+    <svg class="bi bi-bag-heart-fill" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+      <path d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
+    </svg>
+    <span>24 Jun 2025</span>
+  </div>
+
+  <div class="estimated-delivery-date-content">
+    <svg class="bi bi-airplane-fill" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+      <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849"/>
+    </svg>
+    <span>25 Jun 2025</span>
+  </div>
+
+  <div class="estimated-delivery-date-content">
+    <svg class="bi bi-box-fill" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M15.528 2.973a.75.75 0 0 1 .472.696v8.662a.75.75 0 0 1-.472.696l-7.25 2.9a.75.75 0 0 1-.557 0l-7.25-2.9A.75.75 0 0 1 0 12.331V3.669a.75.75 0 0 1 .471-.696L7.443.184l.004-.001.274-.11a.75.75 0 0 1 .558 0l.274.11.004.001zm-1.374.527L8 5.962 1.846 3.5 1 3.839v.4l6.5 2.6v7.922l.5.2.5-.2V6.84l6.5-2.6v-.4l-.846-.339Z"/>
+    </svg>
+    <span>28 Jun 2025</span>
+  </div>
+</div>
