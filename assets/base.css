@@ -3619,7 +3619,8 @@ slideshow-controls:has(.slideshow-controls__dots) {
 .slideshow-controls__thumbnail-badge svg {
   width: 60%;
   height: 60%;
-  fill: var(--color-foreground);
+  fill: var(--col
+  or-foreground);
   opacity: 0.6;
 }
 
